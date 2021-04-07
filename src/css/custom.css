@@ -1,0 +1,40 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;700&family=Ubuntu:wght@300;400;500;700&display=swap");
+
+:root {
+  /* --ifm-color-primary: #277da1;
+  --ifm-color-primary-dark: #237191;
+  --ifm-color-primary-darker: #216a89;
+  --ifm-color-primary-darkest: #1b5871;
+  --ifm-color-primary-light: #2b8ab1;
+  --ifm-color-primary-lighter: #2d90b9;
+  --ifm-color-primary-lightest: #36a1ce; */
+
+  --ifm-color-primary: #f25f5c;
+  --ifm-color-primary-dark: #f0413d;
+  --ifm-color-primary-darker: #ee312e;
+  --ifm-color-primary-darkest: #d91511;
+  --ifm-color-primary-light: #f47d7b;
+  --ifm-color-primary-lighter: #f68d8a;
+  --ifm-color-primary-lightest: #f9bab9;
+
+  --ifm-code-font-size: 95%;
+  --ifm-font-size-base: 105%;
+
+  --ifm-font-family-base: "Roboto Slab", serif;
+  --ifm-heading-font-family: "Ubuntu", sans-serif;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
