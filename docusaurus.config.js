@@ -4,7 +4,7 @@ module.exports = {
   tagline: "Lets learn something new today",
   url: "https://thebestdeveloper.me",
   baseUrl: "/",
-  onBrokenLinks: "throw",
+  onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.png",
   organizationName: "ChaituKNag", // Usually your GitHub org/user name.
