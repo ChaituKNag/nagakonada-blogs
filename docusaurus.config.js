@@ -48,19 +48,19 @@ module.exports = {
     footer: {
       style: "dark",
       links: [
-        {
-          title: "Docs",
-          items: [
-            {
-              label: "Style Guide",
-              to: "docs/"
-            },
-            {
-              label: "Second Doc",
-              to: "docs/doc2/"
-            }
-          ]
-        },
+        // {
+        //   title: "Docs",
+        //   items: [
+        //     {
+        //       label: "Style Guide",
+        //       to: "docs/"
+        //     },
+        //     {
+        //       label: "Second Doc",
+        //       to: "docs/doc2/"
+        //     }
+        //   ]
+        // },
         {
           title: "Community",
           items: [
