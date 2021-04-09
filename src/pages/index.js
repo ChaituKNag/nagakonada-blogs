@@ -66,7 +66,7 @@ export default function Home() {
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
           <img
-            src={useBaseUrl("img/smile.jpeg")}
+            src={useBaseUrl("img/smiley.jpeg")}
             alt="Naga's DP"
             className={styles.heroLogo}
           />
