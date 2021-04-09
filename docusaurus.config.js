@@ -10,41 +10,31 @@ module.exports = {
   organizationName: "ChaituKNag", // Usually your GitHub org/user name.
   projectName: "thebestdeveloper.me", // Usually your repo name.
   themeConfig: {
-    sidebarCollapsible: true,
+    sidebarCollapsible: false,
     hideableSidebar: true,
     colorMode: {
-      defaultMode: "dark",
+      defaultMode: "light",
       disableSwitch: false,
       respectPrefersColorScheme: true
     },
     navbar: {
       title: "Naga Chaitanya Konada",
       hideOnScroll: false,
-      style: "primary",
       logo: {
         alt: "This is the site of KNC",
         src: "img/favicon.png"
       },
       items: [
-        // {
-        //   to: "docs/",
-        //   activeBasePath: "articles",
-        //   label: "Articles",
-        //   position: "left"
-        // },
+        {
+          to: "docs/",
+          activeBasePath: "articles",
+          label: "Articles",
+          position: "left"
+        },
         {
           label: "Blog",
-          position: "left",
-          items: [
-            {
-              to: "blog",
-              label: "Personal"
-            },
-            {
-              label: "Learn",
-              href: "https://learn.nagakonada.com"
-            }
-          ]
+          position: "right",
+          to: "blog"
         },
         {
           href: "https://github.com/ChaituKNag",
@@ -112,12 +102,12 @@ module.exports = {
     [
       "@docusaurus/preset-classic",
       {
-        // docs: {
-        //   sidebarPath: require.resolve("./sidebars.js"),
-        //   // Please change this to your repo.
-        //   editUrl: "https://github.com/facebook/docusaurus/edit/master/website/"
-        // },
-        docs: false,
+        docs: {
+          sidebarPath: require.resolve("./sidebars.js")
+          // Please change this to your repo.
+          // editUrl: "https://github.com/facebook/docusaurus/edit/master/website/"
+        },
+        // docs: false,
         blog: {
           showReadingTime: true,
           blogSidebarCount: 0,

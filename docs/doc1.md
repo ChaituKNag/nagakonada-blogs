@@ -1,9 +1,11 @@
 ---
 id: doc1
 title: Style Guide
-sidebar_label: Style Guide
+sidebar_label: Home
 slug: /
 ---
+
+[Doc 2](/docs/doc-two)
 
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
 

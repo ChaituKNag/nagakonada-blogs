@@ -1,6 +1,6 @@
 ---
 id: doc2
-title: Document Number 2
+title: The various beautiful features of ES6
 slug: doc-two
 ---
 

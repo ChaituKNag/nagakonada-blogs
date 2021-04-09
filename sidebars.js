@@ -1,6 +1,10 @@
 module.exports = {
   someSidebar: {
-    Docusaurus: ['doc1', 'doc2', 'doc3'],
-    Features: ['mdx'],
+    Dinosaur: ["doc3"],
+    Features: ["mdx"]
   },
+  docs: [
+    { type: "doc", id: "doc1" },
+    { type: "doc", id: "doc2" }
+  ]
 };
