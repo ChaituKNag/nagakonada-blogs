@@ -32,7 +32,20 @@ module.exports = {
         //   label: "Articles",
         //   position: "left"
         // },
-        { to: "blog", label: "Blog", position: "left" },
+        {
+          label: "Blog",
+          position: "left",
+          items: [
+            {
+              to: "blog",
+              label: "Personal"
+            },
+            {
+              label: "Learn",
+              href: "https://learn.nagakonada.com"
+            }
+          ]
+        },
         {
           href: "https://github.com/ChaituKNag",
           label: "GitHub",
