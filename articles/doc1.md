@@ -5,7 +5,7 @@ sidebar_label: Home
 slug: /
 ---
 
-[Doc 2](/docs/doc-two)
+[Doc 2](/articles/doc-two)
 
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
 
