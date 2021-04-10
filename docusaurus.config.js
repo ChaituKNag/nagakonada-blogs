@@ -10,8 +10,7 @@ module.exports = {
   organizationName: "ChaituKNag", // Usually your GitHub org/user name.
   projectName: "thebestdeveloper.me", // Usually your repo name.
   themeConfig: {
-    sidebarCollapsible: false,
-    hideableSidebar: true,
+    sidebarCollapsible: true,
     colorMode: {
       defaultMode: "light",
       disableSwitch: false,
@@ -26,8 +25,7 @@ module.exports = {
       },
       items: [
         {
-          to: "articles/",
-          activeBasePath: "articles",
+          to: "articles",
           label: "Articles",
           position: "left"
         },

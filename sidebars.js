@@ -1,10 +1,9 @@
 module.exports = {
-  someSidebar: {
-    Dinosaur: ["doc3"],
-    Features: ["mdx"]
-  },
   articles: [
-    { type: "doc", id: "doc1" },
-    { type: "doc", id: "doc2" }
+    { type: "doc", id: "simple-journal-app" },
+    { type: "doc", id: "creating-react-components" },
+    { type: "doc", id: "headless-cms-comparison" },
+    { type: "doc", id: "image-upload" },
+    { type: "doc", id: "javascript-history-pushstate" }
   ]
 };
