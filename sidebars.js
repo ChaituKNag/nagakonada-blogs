@@ -3,7 +3,7 @@ module.exports = {
     Dinosaur: ["doc3"],
     Features: ["mdx"]
   },
-  docs: [
+  articles: [
     { type: "doc", id: "doc1" },
     { type: "doc", id: "doc2" }
   ]

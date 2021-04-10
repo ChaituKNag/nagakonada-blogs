@@ -26,7 +26,7 @@ module.exports = {
       },
       items: [
         {
-          to: "docs/",
+          to: "articles/",
           activeBasePath: "articles",
           label: "Articles",
           position: "left"
@@ -49,7 +49,7 @@ module.exports = {
       ]
     },
     footer: {
-      style: "dark",
+      // style: "light",
       links: [
         // {
         //   title: "Docs",
@@ -103,6 +103,8 @@ module.exports = {
       "@docusaurus/preset-classic",
       {
         docs: {
+          path: "articles",
+          routeBasePath: "articles",
           sidebarPath: require.resolve("./sidebars.js")
           // Please change this to your repo.
           // editUrl: "https://github.com/facebook/docusaurus/edit/master/website/"
