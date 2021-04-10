@@ -64,7 +64,7 @@ export default function Home() {
     >
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
+          <h1 className="hero__title">Front-end is a fun trend!</h1>
           <img
             src={useBaseUrl("img/smiley.jpeg")}
             alt="Naga's DP"

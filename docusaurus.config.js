@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: "Naga Chaitanya Konada",
-  tagline: "Lets learn something new today",
+  tagline: "Come let's learn something new today 🚀",
   url: "https://thebestdeveloper.me",
   baseUrl: "/",
   onBrokenLinks: "warn",
