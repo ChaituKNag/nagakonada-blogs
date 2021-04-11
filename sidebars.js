@@ -15,19 +15,31 @@ module.exports = {
 
   articles: {
     Guides: [
-      "simple-journal-app",
-      "creating-react-components",
-      "image-upload",
-      "javascript-history-pushstate",
-      "css-flexbox-blog-layout",
-      "css-grid-blog-layout",
-      "javascript-execution-context",
-      "animate-on-scroll-react"
+      "guides/simple-journal-app",
+      "guides/creating-react-components",
+      "guides/image-upload",
+      "guides/javascript-history-pushstate",
+      "guides/css-flexbox-blog-layout",
+      "guides/css-grid-blog-layout",
+      "guides/javascript-execution-context",
+      "guides/animate-on-scroll-react"
     ],
     Insights: [
-      "headless-cms-comparison",
-      "component-reusability-react",
-      "react-vs-vue"
+      "insights/headless-cms-comparison",
+      "insights/component-reusability-react",
+      "insights/react-vs-vue",
+      "insights/attribute-vs-property",
+      "insights/custom-elements",
+      "insights/functional-programming"
+    ],
+    Trivia: [
+      "trivia/iframe-detect",
+      "trivia/empty-pseudo-selector",
+      "trivia/post-put-patch",
+      "trivia/javascript-closures",
+      "trivia/javascript-const",
+      "trivia/javascript-let",
+      "trivia/detect-array-object"
     ]
   }
 };

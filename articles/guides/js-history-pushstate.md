@@ -71,7 +71,7 @@ Alright, enough with the introduction. Lets see an example.
 
 In our example, we will have a page with 3 tabs, each having an associated paragraph content. When we click on any particular tab, the corresponding content shows up and the URL reflects the tab that was clicked.
 
-![The example page](./images/example-page.png)
+![The example page](../images/example-page.png)
 
 To illustrate this example, I’m creating a local project in which the server side is built up using ExpressJS (of course, with the help of NodeJS) and the client side with plain JavaScript.
 
