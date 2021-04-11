@@ -8,32 +8,64 @@ import styles from "./styles.module.css";
 
 const features = [
   {
-    title: "Easy to Use",
-    imageUrl: "img/undraw_docusaurus_mountain.svg",
+    title: "About me",
+    imageUrl: "img/undraw_Hello_qnas.svg",
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Hi, I am Naga. A frontend developer best known for developing highly
+        performing web applications using most modern technical solutions which
+        proved to stand the test of time by being accessible, secure, scalable
+        and modular.
       </>
     )
   },
   {
-    title: "Focus on What Matters",
-    imageUrl: "img/undraw_docusaurus_tree.svg",
+    title: "Tech I dig",
+    imageUrl: "img/undraw_web_developer_p3e5.svg",
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        My best work is in React, Node.js and ES6. I love exploring different
+        aspects of frontend development and most recently I have gotten a kick
+        for JAMStack architectures and JavaScript based backends including some
+        serverless stuff.
       </>
     )
   },
   {
-    title: "Powered by React",
-    imageUrl: "img/undraw_docusaurus_react.svg",
+    title: "Resume",
+    imageUrl: "img/undraw_Resume_re_hkth.svg",
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Are you looking for details of my professional experience, my education,
+        technologies I worked on etc? How about having a look at my resume that
+        you can download from {` `}
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+          href="https://drive.google.com/file/d/1TWnPqf1X40KPTY5kF55cGBEHfkJpqGun/view?usp=sharing"
+        >
+          here
+        </a>
+        {` `}
+        as a PDF file.
+      </>
+    )
+  },
+
+  {
+    title: "Video resume",
+    imageUrl: "img/undraw_online_video_ivvq.svg",
+    description: (
+      <>
+        If you are someone who enjoys video content, checkout this{" "}
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+          href="https://youtu.be/gLn8BADTA5k"
+        >
+          56 seconds video
+        </a>{" "}
+        about me.
       </>
     )
   }
@@ -42,9 +74,7 @@ const features = [
 function Feature({ imageUrl, title, description }) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div
-      className={clsx("col col--6 col--offset-3 text--center", styles.feature)}
-    >
+    <div className={clsx("col col--6 text--center", styles.feature)}>
       {imgUrl && (
         <div className="text--center">
           <img className={styles.featureImage} src={imgUrl} alt={title} />

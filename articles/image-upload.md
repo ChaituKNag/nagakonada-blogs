@@ -86,7 +86,7 @@ That is all required to get up and running.
 
 Open http://localhost:3000.
 
-![Open the app at localhost:3000…](/img/localhost-3000.png)
+![Open the app at localhost:3000…](./images/localhost-3000.png)
 
 ## Front-end UI
 
