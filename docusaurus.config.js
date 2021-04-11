@@ -66,16 +66,46 @@ module.exports = {
           title: "Community",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus"
+              label: "LinkedIn",
+              href: "https://www.linkedin.com/in/nagachaitanyakonada/"
             },
             {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus"
+              label: "YouTube",
+              href: "https://www.youtube.com/channel/UCl5dc2m9rRGZsAu04ytfDjw"
             },
+            {
+              label: "GitHub",
+              href: "https://github.com/ChaituKNag"
+            }
+          ]
+        },
+        {
+          title: "Posts",
+          items: [
+            {
+              label: "Medium",
+              href: "https://medium.com/@nagachaitanyakonada"
+            },
+            {
+              label: "Dev.to",
+              href: "https://dev.to/chaituknag"
+            }
+          ]
+        },
+        {
+          title: "Social",
+          items: [
             {
               label: "Twitter",
-              href: "https://twitter.com/docusaurus"
+              href: "https://twitter.com/ItsKNC"
+            },
+            {
+              label: "Facebook",
+              to: "https://www.facebook.com/ChaituKNag"
+            },
+            {
+              label: "Instagram",
+              to: "https://www.instagram.com/chaituknag/"
             }
           ]
         },
@@ -83,12 +113,13 @@ module.exports = {
           title: "More",
           items: [
             {
-              label: "Blog",
-              to: "blog"
+              label: "Portfolio (TBD.me)",
+              href: "https://thebestdeveloper.me"
             },
             {
-              label: "GitHub",
-              href: "https://github.com/facebook/docusaurus"
+              label: "Join me on Slack",
+              href:
+                "https://join.slack.com/t/naga-konada-devtips/shared_invite/zt-ovocnvb6-5r09AN9bP5rD8D7xUqDxcQ"
             }
           ]
         }
