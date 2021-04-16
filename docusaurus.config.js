@@ -9,6 +9,13 @@ module.exports = {
   favicon: "img/favicon.png",
   organizationName: "ChaituKNag", // Usually your GitHub org/user name.
   projectName: "thebestdeveloper.me", // Usually your repo name.
+  // scripts: [
+  //   {
+  //     src: "https://nagakonada-blogs.ck.page/0963dc396c/index.js",
+  //     "data-uid": "0963dc396c",
+  //     async: true
+  //   }
+  // ],
   themeConfig: {
     sidebarCollapsible: true,
     colorMode: {

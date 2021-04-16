@@ -117,6 +117,11 @@ export default function Home() {
         </div>
       </header>
       <main>
+        <script
+          async
+          data-uid="0963dc396c"
+          src="https://nagakonada-blogs.ck.page/0963dc396c/index.js"
+        ></script>
         {features && features.length > 0 && (
           <section className={styles.features}>
             <div className="container">
