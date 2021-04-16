@@ -39,7 +39,7 @@ module.exports = {
       <script type="text/javascript" src="<%= it.baseUrl %><%= script %>"></script>
     <% }); %>
     <%~ it.postBodyTags %>
-    <script async data-uid="1670a9f032" src="https://nagakonada-blogs.ck.page/1670a9f032/index.js"></script>
+    <script async data-uid="aaac60e932" src="https://nagakonada-blogs.ck.page/aaac60e932/index.js"></script>
   </body>
 </html>
   `,
