@@ -9,13 +9,40 @@ module.exports = {
   favicon: "img/favicon.png",
   organizationName: "ChaituKNag", // Usually your GitHub org/user name.
   projectName: "thebestdeveloper.me", // Usually your repo name.
-  // scripts: [
-  //   {
-  //     src: "https://nagakonada-blogs.ck.page/0963dc396c/index.js",
-  //     "data-uid": "0963dc396c",
-  //     async: true
-  //   }
-  // ],
+  ssrTemplate: `
+  <!DOCTYPE html>
+<html <%~ it.htmlAttributes %>>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
+    <meta name="generator" content="Docusaurus v<%= it.version %>">
+    <%~ it.headTags %>
+    <% it.metaAttributes.forEach((metaAttribute) => { %>
+      <%~ metaAttribute %>
+    <% }); %>
+    <% it.stylesheets.forEach((stylesheet) => { %>
+      <link rel="stylesheet" type="text/css" href="<%= it.baseUrl %><%= stylesheet %>" />
+    <% }); %>
+    <% it.scripts.forEach((script) => { %>
+      <link rel="preload" href="<%= it.baseUrl %><%= script %>" as="script">
+    <% }); %>
+  </head>
+  <body <%~ it.bodyAttributes %> itemscope="" itemtype="http://schema.org/Organization">
+    <%~ it.preBodyTags %>
+    <div id="__docusaurus">
+      <%~ it.appHtml %>
+    </div>
+    <div id="outside-docusaurus">
+      <span>Custom markup</span>
+    </div>
+    <% it.scripts.forEach((script) => { %>
+      <script type="text/javascript" src="<%= it.baseUrl %><%= script %>"></script>
+    <% }); %>
+    <%~ it.postBodyTags %>
+    <script async data-uid="1670a9f032" src="https://nagakonada-blogs.ck.page/1670a9f032/index.js"></script>
+  </body>
+</html>
+  `,
   themeConfig: {
     sidebarCollapsible: true,
     colorMode: {
