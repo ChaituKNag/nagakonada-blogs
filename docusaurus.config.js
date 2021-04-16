@@ -32,9 +32,6 @@ module.exports = {
     <div id="__docusaurus">
       <%~ it.appHtml %>
     </div>
-    <div id="outside-docusaurus">
-      <span>Custom markup</span>
-    </div>
     <% it.scripts.forEach((script) => { %>
       <script type="text/javascript" src="<%= it.baseUrl %><%= script %>"></script>
     <% }); %>
