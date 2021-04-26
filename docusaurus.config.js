@@ -56,7 +56,7 @@ module.exports = {
       },
       items: [
         {
-          to: "articles",
+          to: "all-articles",
           label: "Articles",
           position: "left"
         },

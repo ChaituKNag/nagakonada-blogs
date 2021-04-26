@@ -109,7 +109,7 @@ export default function Home() {
                 "button button--lg button--secondary",
                 styles.getStarted
               )}
-              to={useBaseUrl("articles/")}
+              to={useBaseUrl("all-articles/")}
             >
               Get Started
             </Link>
