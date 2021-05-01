@@ -23,7 +23,7 @@ const ContactForm = () => {
       subject: form.subject.value,
       message: form.message.value
     };
-    fetch("/", {
+    fetch("https://nagakonada-blogs.netlify.app/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode(formData),
