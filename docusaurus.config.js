@@ -66,6 +66,11 @@ module.exports = {
           to: "blog"
         },
         {
+          label: "Contact me",
+          position: "right",
+          to: "contact"
+        },
+        {
           href: "https://github.com/ChaituKNag",
           label: "GitHub",
           position: "right"
@@ -151,6 +156,10 @@ module.exports = {
               label: "Join me on Slack",
               href:
                 "https://join.slack.com/t/naga-konada-devtips/shared_invite/zt-ovocnvb6-5r09AN9bP5rD8D7xUqDxcQ"
+            },
+            {
+              label: "Follow me on Telegram",
+              href: "https://t.me/all_interesting_learning"
             }
           ]
         }
