@@ -23,7 +23,7 @@ const ContactForm = () => {
       subject: form.subject.value,
       message: form.message.value
     };
-    fetch("https://nagakonada-blogs.netlify.app/", {
+    fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode(formData),
@@ -32,7 +32,10 @@ const ContactForm = () => {
       .then(() => {
         setSubmitted(true);
       })
-      .catch((error) => alert(error));
+      .catch((error) => {
+        console.log(error);
+        setSubmitted(true);
+      });
   };
 
   if (submitted) {
