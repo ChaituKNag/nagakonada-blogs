@@ -7,7 +7,7 @@ const ArticleGrid = ({ articles }) => {
       <div className="row">
         {articles.map((article, idx) => (
           <div className="col col--6" key={`${article.title}-${idx}`}>
-            <div className="card shadow--md margin--sm">
+            <div className="card shadow--sm margin--sm">
               <div className="card__header">
                 <h3>{article.title}</h3>
               </div>

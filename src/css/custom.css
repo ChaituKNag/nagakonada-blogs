@@ -53,3 +53,22 @@ h6 {
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
 }
+
+.input-field {
+  padding: var(--ifm-button-padding-vertical);
+  font-family: var(--ifm-font-family-base);
+  cursor: text;
+  color: var(--ifm-font-color-base);
+  outline: none;
+}
+
+.input-field:active,
+.input-field:hover,
+.input-field:focus {
+  background-color: transparent;
+  color: var(--ifm-font-color-base);
+}
+
+.block {
+  display: block;
+}
