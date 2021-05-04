@@ -99,6 +99,17 @@ export default function Home() {
             >
               Get Started
             </Link>
+            <a
+              href="https://wa.link/80m7yu"
+              rel="noreferrer noopener"
+              target="_blank"
+              className={clsx(
+                "button button--lg button--info",
+                styles.getStarted
+              )}
+            >
+              Chat Now
+            </a>
           </div>
         </div>
       </header>

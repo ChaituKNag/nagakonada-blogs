@@ -43,3 +43,10 @@
   height: 200px;
   width: 200px;
 }
+
+.getStarted,
+.getStarted:hover,
+.getStarted:active {
+  margin: 0 0.5em;
+  color: var(--ifm-color-gray-900);
+}
