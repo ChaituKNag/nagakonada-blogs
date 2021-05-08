@@ -174,16 +174,16 @@ module.exports = {
         docs: {
           path: "articles",
           routeBasePath: "articles",
-          sidebarPath: require.resolve("./sidebars.js")
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          // editUrl: "https://github.com/facebook/docusaurus/edit/master/website/"
+          editUrl: "https://github.com/ChaituKNag/nagakonada-blogs/edit/main/",
+          showLastUpdateTime: true
         },
         // docs: false,
         blog: {
           showReadingTime: true,
           blogSidebarCount: 0,
-          // editUrl:
-          //   "https://github.com/facebook/docusaurus/edit/master/website/blog/",
+          editUrl: "https://github.com/ChaituKNag/nagakonada-blogs/edit/main/",
           postsPerPage: 5
         },
         theme: {
