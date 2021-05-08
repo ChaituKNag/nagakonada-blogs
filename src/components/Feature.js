@@ -1,6 +1,6 @@
 import React from "react";
 import clsx from "clsx";
-import styles from "../pages/styles.module.css";
+import styles from "../css/styles.module.css";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 export default function Feature({ imageUrl, title, description }) {
   const imgUrl = useBaseUrl(imageUrl);

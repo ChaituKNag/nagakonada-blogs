@@ -191,13 +191,13 @@ module.exports = {
         }
       }
     ]
-  ],
-  plugins: [
-    [
-      "docusaurus2-dotenv",
-      {
-        systemvars: true
-      }
-    ]
   ]
+  // plugins: [
+  //   [
+  //     "docusaurus2-dotenv",
+  //     {
+  //       systemvars: true
+  //     }
+  //   ]
+  // ]
 };

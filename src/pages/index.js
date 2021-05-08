@@ -4,10 +4,9 @@ import Layout from "@theme/Layout";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import useBaseUrl from "@docusaurus/useBaseUrl";
-import styles from "./styles.module.css";
+import styles from "../css/styles.module.css";
 import Feature from "../components/Feature";
-
-console.log(process.env.REVUE_API_TOKEN);
+import SubscribeForm from "../components/SubscribeForm";
 
 const features = [
   {
@@ -114,6 +113,7 @@ export default function Home() {
               Chat Now
             </a>
           </div>
+          <SubscribeForm />
         </div>
       </header>
       <main>
