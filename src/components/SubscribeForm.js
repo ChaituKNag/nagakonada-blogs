@@ -5,10 +5,11 @@ import fetch from "unfetch";
 
 const SubscribeForm = () => {
   const [subscribed, setSubscribed] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
+    setLoading(true);
     const form = e.target;
 
     fetch("/api/subscribe", {
@@ -21,12 +22,16 @@ const SubscribeForm = () => {
       .then((res) => res.json())
       .then(() => {
         setSubscribed(true);
+        setLoading(false);
       })
-      .catch(() => setSubscribed(true));
+      .catch(() => {
+        setSubscribed(true);
+        setLoading(false);
+      });
   };
   return (
     <div className="margin--lg">
-      <form onSubmit={handleSubmit}>
+      <form autoComplete="off" onSubmit={handleSubmit}>
         <h2>Subscribe to my news-letter</h2>
         {subscribed && (
           <p>
@@ -46,6 +51,7 @@ const SubscribeForm = () => {
                 "input-field button text--left margin--sm"
               )}
               placeholder="First Name"
+              disabled={loading}
             />
             <input
               required
@@ -56,8 +62,11 @@ const SubscribeForm = () => {
                 "input-field button text--left margin--sm"
               )}
               placeholder="Email"
+              disabled={loading}
             />
-            <button className="button button--success">Subscribe</button>
+            <button disabled={loading} className="button button--success">
+              Subscribe
+            </button>
           </div>
         )}
       </form>
