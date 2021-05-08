@@ -2,7 +2,7 @@
 module.exports = {
   title: "Naga Chaitanya Konada",
   tagline: "Come let's learn something new today 🚀",
-  url: "https://thebestdeveloper.me",
+  url: "https://nagakonada.com",
   baseUrl: "/",
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
@@ -192,5 +192,12 @@ module.exports = {
       }
     ]
   ],
-  plugins: ["docusaurus2-dotenv"]
+  plugins: [
+    [
+      "docusaurus2-dotenv",
+      {
+        systemvars: true
+      }
+    ]
+  ]
 };
