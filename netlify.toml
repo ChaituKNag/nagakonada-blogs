@@ -1,7 +1,14 @@
 [functions]
+    directory="functions/"
 
-  directory="functions/"
+[build]
+    publish="build/"
+    command="yarn build"
+
+[build.environment]
+    REVUE_API_TOKEN="M1UYBgdRKbh8Cv2gqKbswrMBRWkXr3XF"
 
 [[redirects]]
-  from = "/api/*"
-  to = "/.netlify/functions/:splat"
+    from="/api/*"
+    to="/.netlify/functions/:splat"
+    status=200
