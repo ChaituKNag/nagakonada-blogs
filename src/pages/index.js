@@ -7,6 +7,8 @@ import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./styles.module.css";
 import Feature from "../components/Feature";
 
+console.log(process.env.REVUE_API_TOKEN);
+
 const features = [
   {
     title: "About me",
@@ -74,6 +76,7 @@ const features = [
 
 export default function Home() {
   const context = useDocusaurusContext();
+
   const { siteConfig = {} } = context;
   return (
     <Layout

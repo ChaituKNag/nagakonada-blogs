@@ -9,37 +9,37 @@ module.exports = {
   favicon: "img/favicon.png",
   organizationName: "ChaituKNag", // Usually your GitHub org/user name.
   projectName: "thebestdeveloper.me", // Usually your repo name.
-  ssrTemplate: `
-  <!DOCTYPE html>
-<html <%~ it.htmlAttributes %>>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
-    <meta name="generator" content="Docusaurus v<%= it.version %>">
-    <%~ it.headTags %>
-    <% it.metaAttributes.forEach((metaAttribute) => { %>
-      <%~ metaAttribute %>
-    <% }); %>
-    <% it.stylesheets.forEach((stylesheet) => { %>
-      <link rel="stylesheet" type="text/css" href="<%= it.baseUrl %><%= stylesheet %>" />
-    <% }); %>
-    <% it.scripts.forEach((script) => { %>
-      <link rel="preload" href="<%= it.baseUrl %><%= script %>" as="script">
-    <% }); %>
-  </head>
-  <body <%~ it.bodyAttributes %> itemscope="" itemtype="http://schema.org/Organization">
-    <%~ it.preBodyTags %>
-    <div id="__docusaurus">
-      <%~ it.appHtml %>
-    </div>
-    <% it.scripts.forEach((script) => { %>
-      <script type="text/javascript" src="<%= it.baseUrl %><%= script %>"></script>
-    <% }); %>
-    <%~ it.postBodyTags %>
-    <script async data-uid="aaac60e932" src="https://nagakonada-blogs.ck.page/aaac60e932/index.js"></script>
-  </body>
-</html>
-  `,
+  //   ssrTemplate: `
+  //   <!DOCTYPE html>
+  // <html <%~ it.htmlAttributes %>>
+  //   <head>
+  //     <meta charset="UTF-8">
+  //     <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
+  //     <meta name="generator" content="Docusaurus v<%= it.version %>">
+  //     <%~ it.headTags %>
+  //     <% it.metaAttributes.forEach((metaAttribute) => { %>
+  //       <%~ metaAttribute %>
+  //     <% }); %>
+  //     <% it.stylesheets.forEach((stylesheet) => { %>
+  //       <link rel="stylesheet" type="text/css" href="<%= it.baseUrl %><%= stylesheet %>" />
+  //     <% }); %>
+  //     <% it.scripts.forEach((script) => { %>
+  //       <link rel="preload" href="<%= it.baseUrl %><%= script %>" as="script">
+  //     <% }); %>
+  //   </head>
+  //   <body <%~ it.bodyAttributes %> itemscope="" itemtype="http://schema.org/Organization">
+  //     <%~ it.preBodyTags %>
+  //     <div id="__docusaurus">
+  //       <%~ it.appHtml %>
+  //     </div>
+  //     <% it.scripts.forEach((script) => { %>
+  //       <script type="text/javascript" src="<%= it.baseUrl %><%= script %>"></script>
+  //     <% }); %>
+  //     <%~ it.postBodyTags %>
+  //     <script async data-uid="aaac60e932" src="https://nagakonada-blogs.ck.page/aaac60e932/index.js"></script>
+  //   </body>
+  // </html>
+  //   `,
   themeConfig: {
     sidebarCollapsible: true,
     colorMode: {
@@ -191,5 +191,6 @@ module.exports = {
         }
       }
     ]
-  ]
+  ],
+  plugins: ["docusaurus2-dotenv"]
 };
