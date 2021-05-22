@@ -61,6 +61,11 @@ module.exports = {
           position: "left"
         },
         {
+          href: "https://anchor.fm/learn-with-naga",
+          label: "Listen",
+          position: "right"
+        },
+        {
           label: "Blog",
           position: "right",
           to: "blog"
@@ -154,8 +159,7 @@ module.exports = {
             },
             {
               label: "Join me on Slack",
-              href:
-                "https://join.slack.com/t/naga-konada-devtips/shared_invite/zt-ovocnvb6-5r09AN9bP5rD8D7xUqDxcQ"
+              href: "https://join.slack.com/t/naga-konada-devtips/shared_invite/zt-ovocnvb6-5r09AN9bP5rD8D7xUqDxcQ"
             },
             {
               label: "Follow me on Telegram",
