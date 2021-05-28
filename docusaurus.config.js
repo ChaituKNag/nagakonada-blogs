@@ -60,9 +60,14 @@ module.exports = {
           label: "Articles",
           position: "left"
         },
+        // {
+        //   href: "https://anchor.fm/learn-with-naga",
+        //   label: "Listen",
+        //   position: "right"
+        // },
         {
-          href: "https://anchor.fm/learn-with-naga",
-          label: "Listen",
+          to: "all-podcasts",
+          label: "Podcasts",
           position: "right"
         },
         {
