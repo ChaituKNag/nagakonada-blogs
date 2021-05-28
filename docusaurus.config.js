@@ -202,6 +202,10 @@ module.exports = {
           changefreq: "daily",
           priority: 0.5,
           trailingSlash: false
+        },
+        gtag: {
+          trackingID: "GTM-TPST72K",
+          anonymizeIP: true
         }
       }
     ]
