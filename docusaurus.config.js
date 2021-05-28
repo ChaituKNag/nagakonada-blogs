@@ -197,16 +197,59 @@ module.exports = {
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css")
+        },
+        sitemap: {
+          changefreq: "daily",
+          priority: 0.5,
+          trailingSlash: false
         }
       }
     ]
+  ],
+  plugins: [
+    [
+      "@docusaurus/plugin-pwa",
+      {
+        debug: true,
+        offlineModeActivationStrategies: [
+          "appInstalled",
+          "standalone",
+          "saveData",
+          "mobile"
+        ],
+        pwaHead: [
+          {
+            tagName: "link",
+            rel: "icon",
+            href: "/img/favicon.png"
+          },
+          {
+            tagName: "link",
+            rel: "manifest",
+            href: "/manifest.json" // your PWA manifest
+          },
+          {
+            tagName: "meta",
+            name: "theme-color",
+            content: "#f25f5c"
+          },
+          {
+            tagName: "meta",
+            name: "apple-mobile-web-app-capable",
+            content: "yes"
+          },
+          {
+            tagName: "meta",
+            name: "apple-mobile-web-app-status-bar-style",
+            content: "#f25f5c"
+          },
+          {
+            tagName: "link",
+            rel: "apple-touch-icon",
+            href: "/img/favicon.png"
+          }
+        ]
+      }
+    ]
   ]
-  // plugins: [
-  //   [
-  //     "docusaurus2-dotenv",
-  //     {
-  //       systemvars: true
-  //     }
-  //   ]
-  // ]
 };
