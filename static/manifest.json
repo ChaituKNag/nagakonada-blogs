@@ -1,0 +1,38 @@
+{
+  "short_name": "Naga Konada",
+  "name": "Naga Konada - Writings",
+  "icons": [
+    {
+      "src": "/img/favicon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/favicon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#f25f5c",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#f25f5c",
+  "shortcuts": [
+    {
+      "name": "All articles",
+      "short_name": "Articles",
+      "description": "Read all tech articles from Naga",
+      "url": "/all-articles",
+      "icons": [{ "src": "/img/favicon.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "All blog posts",
+      "short_name": "Blog",
+      "description": "Read all blog posts from Naga",
+      "url": "/blog",
+      "icons": [{ "src": "/img/favicon.png", "sizes": "192x192" }]
+    }
+  ],
+  "description": "Come let's learn something new today 🚀"
+}
