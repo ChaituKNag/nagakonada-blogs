@@ -83,3 +83,13 @@ h6 {
   top: 0;
   left: 0;
 }
+
+.podcast-container {
+  position: relative;
+}
+
+.podcast-container::before {
+  position: absolute;
+  content: "Loading podcast...";
+  z-index: -1;
+}

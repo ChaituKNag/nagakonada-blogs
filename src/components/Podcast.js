@@ -2,13 +2,14 @@ import React from "react";
 
 const Podcast = ({ episode }) => {
   return (
-    <div>
+    <div className="podcast-container">
       <iframe
         src={`https://anchor.fm/learn-with-naga/embed/episodes/${episode}`}
-        frameborder="0"
+        frameBorder="0"
         height="161px"
         width="100%"
         scrolling="no"
+        loading="eager"
       ></iframe>
     </div>
   );
