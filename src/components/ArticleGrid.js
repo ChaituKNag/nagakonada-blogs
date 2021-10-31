@@ -16,7 +16,7 @@ const ArticleGrid = ({ articles }) => {
             <div className="card__footer">
               <Link
                 to={article.link}
-                className="button button--lg button--secondary button--block"
+                className="button button--lg button--secondary button--block text--uppercase"
               >
                 Read
               </Link>
