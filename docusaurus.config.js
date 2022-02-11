@@ -45,10 +45,22 @@ module.exports = {
     colorMode: {
       defaultMode: "light",
       disableSwitch: false,
-      respectPrefersColorScheme: true
+      respectPrefersColorScheme: true,
+      switchConfig: {
+        darkIcon: "🌘",
+        darkIconStyle: {
+          marginLeft: "2px"
+        },
+        // Unicode icons such as '\u2600' will work
+        // Unicode with 5 chars require brackets: '\u{1F602}'
+        lightIcon: "💡",
+        lightIconStyle: {
+          marginLeft: "1px"
+        }
+      }
     },
     navbar: {
-      title: "Naga Chaitanya Konada",
+      title: "Naga Konada",
       hideOnScroll: false,
       logo: {
         alt: "This is the site of KNC",
@@ -67,23 +79,19 @@ module.exports = {
         // },
         {
           to: "all-podcasts",
-          label: "Podcasts",
-          position: "right"
+          label: "Podcasts"
         },
         {
           label: "Blog",
-          position: "right",
           to: "blog"
         },
         {
           label: "Contact me",
-          position: "right",
           to: "contact"
         },
         {
           href: "https://github.com/ChaituKNag",
-          label: "GitHub",
-          position: "right"
+          label: "GitHub"
         },
         {
           href: "https://thebestdeveloper.me",
