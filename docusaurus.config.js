@@ -1,7 +1,8 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: "Naga Chaitanya Konada",
-  tagline: "Come let's learn something new today 🚀",
+  tagline:
+    "Hi 👋 I am Naga Konada. Learn all about frontend technologies here 🚀",
   url: "https://nagakonada.com",
   baseUrl: "/",
   onBrokenLinks: "warn",

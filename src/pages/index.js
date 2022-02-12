@@ -84,7 +84,9 @@ export default function Home() {
     >
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">
-          <h1 className="hero__title">Front-end is a fun trend!</h1>
+          <h1 className="hero__title">
+            Learning is all about discovering yourself!
+          </h1>
           <img
             src={useBaseUrl("img/smiley.jpeg")}
             alt="Naga's DP"
@@ -101,7 +103,7 @@ export default function Home() {
             >
               Get Started
             </Link>
-            <a
+            {/* <a
               href="https://wa.link/80m7yu"
               rel="noreferrer noopener"
               target="_blank"
@@ -111,7 +113,7 @@ export default function Home() {
               )}
             >
               Chat Now
-            </a>
+            </a> */}
           </div>
           <SubscribeForm />
         </div>
