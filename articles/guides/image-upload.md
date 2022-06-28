@@ -7,13 +7,13 @@ id: image-upload
 
 ## Intention / Why
 
-> Have you ever thought about how images are actually uploaded to a server, from the UI perspective? There could be many ways. You might have seen Image hosting cloud platforms like [Cloudinary](https://cloudinary.com/), [Bynder](https://www.bynder.com/), etc. Tools like these also provide edge-cached dynamic endpoints for various image qualities etc. But if you take a step back, the first thing all these tools need to do is allow you to upload the image and they process it in their own way. So, lets dive into one simple way of uploading images. 
+> Have you ever thought about how images are actually uploaded to a server, from the UI perspective? There could be many ways. You might have seen Image hosting cloud platforms like [Cloudinary](https://cloudinary.com/), [Bynder](https://www.bynder.com/), etc. Tools like these also provide edge-cached dynamic endpoints for various image qualities etc. But if you take a step back, the first thing all these tools need to do is allow you to upload the image which then gets processed it in a certain way. In this article, we will dive into one simple example of uploading images. 
 
-This example also covers the way you can drag-drop the image and preview it before uploading. 
+This example also covers the way you can drag-drop the image and preview it before uploading.
 
-Happy learning.
+Lets dive in.
 
-Here is the [Youtube playlist](https://www.youtube.com/playlist?list=PL0-gUIpqQterKudDsYy8ogJ5pTSsYdwrv) if you want to watch me do it. Check the project code [here](https://github.com/ChaituKNag/image-upload-demo.git).
+> Here is the [Youtube playlist](https://www.youtube.com/playlist?list=PL0-gUIpqQterKudDsYy8ogJ5pTSsYdwrv) if you want to watch me do it. Check the project code [here](https://github.com/ChaituKNag/image-upload-demo.git).
 
 ### Some common use-cases:
 
@@ -82,13 +82,13 @@ Open http://localhost:3000.
 
 ## Front-end UI
 
-Lets talk about the front end UI.
+Lets talk about the user interface.
 
 ### Markup
 
 The `index.html` file has the normal html5 boilerplate structure. The Bootstrap 4 related files such as `bootstrap.min.css`, `bootstrap.bundle.min.js` (which comes along with PopperJS included) and `jquery.min.js`. These are required for our fancy UI to use the Bootstrap 4 magic. Since we are using jQuery for our Ajax functionality, it is good that we included this over here.
 
-There is a form which has a hidden input type of file. Its label surrounds it like this:
+There is a form which has a hidden input field with `type="file"`.
 
 Notice the label surrounding the input:
 
@@ -109,17 +109,19 @@ The reason for wrapping the input inside the label and hiding it is this:
 
 - We want to stylize the label to look like a circular section where user can drop the image.
 - We also want the same circular section to be clicked upon and the native file explorer window should pop-up. The label’s for attribute takes care of this.
-- We need to hide the normal file input field, because it looks ugly for our purposes and it looks different in each browser, so for consistency sake, we should hide it.
+- We need to hide the normal file input field, because it looks ugly for our purposes and it looks different in each browser, so for the sake of consistency, we need to hide it.
 
-The label has the `for` attribute pointing to the input which allows us to action upon the input field by clicking on the label (which is the case for all types of input fields). So, when we click on the circular section, we are actually clicking on the label and that in turn invokes the action upon the hidden input field.
+The label's `for` attribute points to the input which allows us to action upon the input field by clicking on the label (which is the case for all types of input fields). So, when we click on the circular section, we are actually clicking on the label and that in turn invokes the click action upon the hidden input field.
 
-Notice that there is this attribute `accept=”image/png, image/jpeg”` that makes sure that the user can only upload the images of type JPEG or PNG. Also, there is no attribute called multiple so the user can only upload one image file.
+Notice that there is this attribute `accept=”image/png, image/jpeg”` that makes sure that the user can only upload the images of type JPEG or PNG. 
 
-There are empty paragraphs to show error and success messages. There is an Upload button and a clear link to clear the selected image.
+> Notice, there is no attribute called `multiple` so the user can only upload one image file.
+
+There are empty paragraphs to show error and success messages. There is an Upload button and a CTA to clear the selected image (labelled `clear`).
 
 ### Custom styling
 
-Though we are using bootstrap framework, they can only do so much help and its up to us to customize our app to look the way we want.
+Now, since we are using Bootstrap 4 framework, there are classes we can use stylize our app. But just for the fun of learning some CSS, lets add custom styles.
 
 > Even a superhero needs a haircut.
 
