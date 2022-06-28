@@ -7,7 +7,7 @@ id: image-upload
 
 ## Intention / Why
 
-Have you ever thought about how images are actually uploaded to a server, from the UI perspective? There could be many ways. You might have seen Image hosting cloud platforms like [Cloudinary](), [Bynder](), etc. Tools like these also provide edge-cached dynamic endpoints for various image qualities etc. But if you take a step back, the first thing all these tools need to do is allow you to upload the image and they process it in their own way. So, lets dive into one simple way of uploading images. 
+> Have you ever thought about how images are actually uploaded to a server, from the UI perspective? There could be many ways. You might have seen Image hosting cloud platforms like [Cloudinary](https://cloudinary.com/), [Bynder](https://www.bynder.com/), etc. Tools like these also provide edge-cached dynamic endpoints for various image qualities etc. But if you take a step back, the first thing all these tools need to do is allow you to upload the image and they process it in their own way. So, lets dive into one simple way of uploading images. 
 
 This example also covers the way you can drag-drop the image and preview it before uploading. 
 
