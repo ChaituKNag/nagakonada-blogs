@@ -5,21 +5,17 @@ sidebar_label: Image Upload Functionality
 id: image-upload
 ---
 
-Hi there, how are you doing.
+## Intention / Why
 
-This post can be considered as a written version of my [YouTube mini-series](https://www.youtube.com/playlist?list=PL0-gUIpqQterKudDsYy8ogJ5pTSsYdwrv) on image upload end-to-end functionality.
+Have you ever thought about how images are actually uploaded to a server, from the UI perspective? There could be many ways. You might have seen Image hosting cloud platforms like [Cloudinary](), [Bynder](), etc. Tools like these also provide edge-cached dynamic endpoints for various image qualities etc. But if you take a step back, the first thing all these tools need to do is allow you to upload the image and they process it in their own way. So, lets dive into one simple way of uploading images. 
 
-All the code shown here is available in [this Github repo](https://github.com/ChaituKNag/image-upload-demo.git).
+This example also covers the way you can drag-drop the image and preview it before uploading. 
 
-## Intention
+Happy learning.
 
-The intention of this post and the corresponding YouTube playlist on image upload functionality is this:
+Here is the [Youtube playlist](https://www.youtube.com/playlist?list=PL0-gUIpqQterKudDsYy8ogJ5pTSsYdwrv) if you want to watch me do it. Check the project code [here](https://github.com/ChaituKNag/image-upload-demo.git).
 
-### Why is this useful:
-
-There are not many good tutorials on how to upload an image in a neat way. I thought it would be great to have a demo that includes this.
-
-### What are some of the use-cases:
+### Some common use-cases:
 
 - Profile picture update.
 - Image can be dragged and dropped into the placeholder and it shows a preview.
@@ -32,23 +28,19 @@ There are not many good tutorials on how to upload an image in a neat way. I tho
 
 ## Technologies used
 
-### In the front end:
+- HTML
+- JS
+- jQuery (not mandatory)
+- Bootstrap (not mandatory)
 
-- HTML5 for the markup
-- JavaScript (ES5) for image related functionality
-- jQuery just for the ajax functionality, you may use the plain old XHR or the recent ES6’s fetch as well. Good thing with a simple approach is that it is very easy to integrate into any framework.
-- Bootstrap 4 for our UI styling. Not mandatory, you may use your own styles as well.
-
-### In the back end:
-
-- ExpressJS for the routes handling.
-- NodeJS for saving the file and hosting the server.
-- Bower for the front end dependencies like bootstrap and jQuery.
-- Nodemon for continuous watching of file changes and auto-restart of node server.
+- Express.js (endpoint to save image)
+- Node.js (obviously for server)
+- Bower (frontend deps - not mandatory)
+- Nodemon (continous development)
 
 ## How to install
 
-You should have NodeJS and Git installed in your machine. You can manage without Git, but I highly recommend you use it, so you can get exposure on that.
+You should have NodeJS and Git installed in your machine. You can manage without Git, but I highly recommend you use it.
 
 ### Do a git clone
 
@@ -63,7 +55,7 @@ Go to that folder where you did the `git clone`.
 ```bash
 npm install
 # or
-#npm i
+npm i
 ```
 
 ### Install front-end dependencies
