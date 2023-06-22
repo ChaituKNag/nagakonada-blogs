@@ -4,7 +4,7 @@ description: This post explores the most popular libraries and frameworks across
 sidebar_label: Most popular libraries
 ---
 
-In the world of software development, every technology has a leading [library or framework](https://www.baeldung.com/cs/framework-vs-library#:~:text=A%20framework%20is%20used%20for,the%20functionality%20of%20an%20application.). But have you ever wondered what is the leader among the leading libraries? Which technology has the highest number of likes or followers? Github is the best place to investigate and find out such a statistic. In this article, we will look at all the major technologies in various software development streams and explore the most popular libraries and frameworks in each category.
+In the world of software development, every technology has a leading [library or framework](https://www.baeldung.com/cs/framework-vs-library). But have you ever wondered what is the leader among the leading libraries? Which technology has the highest number of likes or followers? Github is the best place to investigate and find out such a statistic. In this article, we will look at all the major technologies in various software development streams and explore the most popular libraries and frameworks in each category.
 
 ## Frontend Libraries
 
@@ -26,7 +26,7 @@ Other popular backend languages include Java, Ruby, and Node.js. [Java](https://
 
 ## DevOps
 
-DevOps is the practice of combining software development and IT operations to improve the speed and quality of [software delivery](https://softwaresim.com/blog/how-can-devops-improve-software-delivery/#:~:text=DevOps%20allows%20businesses%20to%3A,respond%20to%20feedback%20from%20customers.). There are many tools and platforms available for DevOps, but the most popular platform by far is [Kubernetes](https://kubernetes.io/). It is an open-source container [orchestration](https://www.redhat.com/en/topics/containers/what-is-container-orchestration) platform that automates the deployment, scaling, and management of containerized applications. Kubernetes has over 99.3k stars (2023) on Github. Kubernetes is used by major companies such as Airbnb, GitHub, and Spotify for container orchestration and deployment automation.
+DevOps is the practice of combining software development and IT operations to improve the speed and quality of [software delivery](https://softwaresim.com/blog/how-can-devops-improve-software-delivery/). There are many tools and platforms available for DevOps, but the most popular platform by far is [Kubernetes](https://kubernetes.io/). It is an open-source container [orchestration](https://www.redhat.com/en/topics/containers/what-is-container-orchestration) platform that automates the deployment, scaling, and management of containerized applications. Kubernetes has over 99.3k stars (2023) on Github. Kubernetes is used by major companies such as Airbnb, GitHub, and Spotify for container orchestration and deployment automation.
 
 Other popular DevOps tools include Docker, Jenkins, and Ansible. [Docker](https://www.docker.com/) is a platform that allows developers to package applications and their dependencies into containers that can be easily deployed to any environment. [Jenkins](https://www.jenkins.io/) is an open-source automation server that enables developers to automate the building, testing, and deployment of software. [Ansible](https://www.ansible.com/) is an open-source automation tool that enables developers to automate the configuration and management of IT infrastructure.
 
@@ -34,7 +34,7 @@ Other popular DevOps tools include Docker, Jenkins, and Ansible. [Docker](https:
 
 ## Fullstack E2E Solutions
 
-[Fullstack development](https://bootcamp.learn.utoronto.ca/blog/what-is-a-full-stack-developer/#:~:text=Full%20stack%20technology%20refers%20to,can%20see%20and%20interact%20with.) is the process of creating applications that span both frontend and backend development. There are many fullstack frameworks available, but the most popular by far is [Node.js](https://nodejs.org/en). Node.js is a JavaScript runtime built on Chrome's [V8 JavaScript engine](https://v8.dev/) that enables developers to build server-side applications in JavaScript. It has over **96k stars** on Github and is used by companies such as Netflix and LinkedIn.
+[Fullstack development](https://bootcamp.learn.utoronto.ca/blog/what-is-a-full-stack-developer/) is the process of creating applications that span both frontend and backend development. There are many fullstack frameworks available, but the most popular by far is [Node.js](https://nodejs.org/en). Node.js is a JavaScript runtime built on Chrome's [V8 JavaScript engine](https://v8.dev/) that enables developers to build server-side applications in JavaScript. It has over **96k stars** on Github and is used by companies such as Netflix and LinkedIn.
 
 Other popular fullstack frameworks include Ruby on Rails, Django, and Laravel. [Ruby on Rails](https://rubyonrails.org/) is a popular web application framework that uses the Ruby programming language. [Django](https://www.djangoproject.com/) and [Laravel](https://laravel.com/) are both backend web frameworks that use Python and PHP, respectively.
 
