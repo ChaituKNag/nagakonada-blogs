@@ -22,7 +22,7 @@ let age: number = 27;
 
 This specifies that the variable `age` should be of type `number` and have an initial value of `27`.
 
-![Typescript](../images/10-most-important-typescript-concepts/2-Type-Annotations.png)
+![Typescript](../images/10-most-important-typescript-concepts/2-Type-annotations.png)
 
 ## 2. Interfaces
 
