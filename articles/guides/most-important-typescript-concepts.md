@@ -1,6 +1,6 @@
 ---
 title: 10 most important typescript concepts
-description: Learn how to animate sections of your page into view in React, as you scroll to those sections.
+description: TypeScript is a superset of JavaScript that adds optional static typing and class-based object-oriented programming. It's gaining popularity among developers, particularly for large-scale projects. This post covers 10 essential TypeScript concepts for developers to master.
 sidebar_label: 10 Typescript Concepts
 ---
 
