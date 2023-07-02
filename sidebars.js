@@ -15,6 +15,7 @@ module.exports = {
 
   articles: {
     Guides: [
+      "guides/most-important-typescript-concepts",
       "guides/simple-journal-app",
       "guides/creating-react-components",
       "guides/image-upload",
