@@ -108,7 +108,7 @@ function add(a: number, b: number) {
 }
 ```
 
-![Typescript](../images/10-most-important-typescript-concepts/7-Type-Inference.png)
+![Typescript](../images/10-most-important-typescript-concepts/7-Type-inference.png)
 
 ## 7. Union and Intersection Types
 
